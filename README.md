@@ -75,7 +75,9 @@ Create a table that breaks down school performance based on average spending ran
 Use the code provided below to create four bins with reasonable cutoff values to group school spending.
 
 spending_bins = [0, 585, 630, 645, 680]
+
 labels = ["<$585", "$585-630", "$630-645", "$645-680"]
+
 Use pd.cut to categorize spending based on the bins.
 
 Use the following code to then calculate mean scores per spending range.
